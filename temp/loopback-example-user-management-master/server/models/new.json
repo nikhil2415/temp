@@ -1,0 +1,23 @@
+{
+  "name": "New",
+  "plural": "asdf",
+  "base": "user",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ASDF": {
+      "type": "number",
+      "required": true,
+      "default": 1
+    },
+    "b": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
